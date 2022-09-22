@@ -21,7 +21,7 @@ Proyecto de Inicio: WebAPIPagosTUYA
 
 Hacer Debug Seleccionando en el boton de Play para iniciar Debug en lugar de IIS Express, seleccionar WebAPIPagosTUYA
 
-CadenaConexion BD en archivo: PagosPruebaTuyaDescarga\WebAPIPagosTUYA\appsettings.json
+CadenaConexion BD en archivo: PagosPruebaTuya\WebAPIPagosTUYA\appsettings.json
 Etiquetas: ConnectionStrings-->DefaultConnection
 
 Se sube en repositorio backup BD:
