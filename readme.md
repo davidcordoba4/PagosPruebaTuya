@@ -21,8 +21,13 @@ Proyecto de Inicio: WebAPIPagosTUYA
 
 Hacer Debug Seleccionando en el boton de Play para iniciar Debug en lugar de IIS Express, seleccionar WebAPIPagosTUYA
 
+CadenaConexion BD en archivo: PagosPruebaTuyaDescarga\WebAPIPagosTUYA\appsettings.json
+Etiquetas: ConnectionStrings-->DefaultConnection
+
 Se sube en repositorio backup BD:
 Backup PagosPruebaTuya.bak
+
+Nombre BD SQL SERVER: PagosPruebaTuya
 
 Coleccion PostMan Evidencias Consumo Metodos Endpoint REST Servicio De Pago:
 PeticionesWebAPIPagosTuya.postman_collection.json
