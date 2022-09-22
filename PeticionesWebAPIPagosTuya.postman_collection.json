@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "14bd64f8-c69e-4124-9a57-242bdd307bb9",
+		"name": "PeticionesWebAPIPagosTuya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8805423"
+	},
+	"item": [
+		{
+			"name": "CreateFactura",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"NombreUsuario\" : \"CarlosCardona\",\r\n    \"TipoDocumento\" : \"CC\",\r\n    \"NroDocumento\" : \"1018415324\",\r\n    \"DetallesFactura\" : [\r\n        {\r\n            \"NombreProducto\":\"Shampoo EGO\",\r\n            \"Precio\":18900,\r\n            \"Cantidad\":2\r\n        },\r\n        {\r\n            \"NombreProducto\":\"Desodorante REXONA\",\r\n            \"Precio\":12000,\r\n            \"Cantidad\":1\r\n        },\r\n        {\r\n            \"NombreProducto\":\"GEL EGO FRASCO\",\r\n            \"Precio\":8000,\r\n            \"Cantidad\":2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Factura/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Factura",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreatePedido",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Pais\" : \"Colombia\",\r\n    \"Barrio\" : \"Robledo\",\r\n    \"Ciudad\" : \"Medellín\",\r\n    \"Direccion\" : \"Calle 82 # 73 C - 87\",\r\n    \"NroFactura\" : \"FACT01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Logistica/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Logistica",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

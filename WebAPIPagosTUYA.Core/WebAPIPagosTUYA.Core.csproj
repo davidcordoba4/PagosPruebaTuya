@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPIPagosTUYA.Entities\WebAPIPagosTUYA.Entities.csproj" />
+    <ProjectReference Include="..\WebAPIPagosTUYA.Repositories\WebAPIPagosTUYA.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
